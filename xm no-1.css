@@ -1,0 +1,759 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.menu-bar{
+    background-color:	 #00001a ;
+    height: 80px;
+    width:100% ;
+    display: flex;
+    /* text-align:center; */
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo{
+    color:white;
+    font-size: 30px;
+    margin-top: 25px;
+    
+}
+
+.logo span{
+    color:#1a1aff;
+}
+
+.menu-bar ul{
+    list-style: none;
+    display:flex;
+    margin: 20px;
+    margin-right:700px;
+}
+
+.menu-bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu-bar ul li a{
+    color:white ;
+    text-decoration: none;
+    font-size:20px; 
+    transition: all 0.3;
+}
+
+.menu-bar ul li a:hover{
+    color:#1a1aff ;
+}
+
+.dropdown__menu{
+    display: none;
+}
+
+.menu-bar button{
+    padding:10px 15px ;
+    text-align: center; 
+    background:#1a1aff ;
+    color: white;
+    border-radius:20px; 
+}
+
+.menu-bar ul li:hover .dropdown__menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color:#00001a;
+}
+
+.menu-bar ul li:hover .dropdown__menu ul{
+    display:block ;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .dropdown__menu ul li{
+    width:150px;
+    padding:10px;
+}
+
+.fas{
+    float: left;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+
+/* menu bair */
+
+
+#abc{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#abc .a{
+    width: 40%;
+    height: 40vh;
+    font-size: 40px;
+    margin:50px;
+    margin-top:400px;
+    
+}
+
+#abc .b{
+    width: 40%;
+    height: 40vh;
+    margin-top: 100px;
+}
+
+#abc .b img{
+    width: 800px;
+} 
+
+/* 1nd paret */
+
+#div2{
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    
+    
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        position: relative;
+        width: 80%;
+        height: 200px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: -10px 5px 10px gray;
+        top: 0;
+        transition: top ease 0.5s;     
+}
+
+#div2:hover{
+    top:-55px;
+}
+
+#div2 .hadding{
+    flex: 5;
+    /* width: 200px; */
+    font-size: 30px;
+    padding-left:80px;
+}
+
+
+#div2 .pragraph{
+    bottom: 45px;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    padding-right: 60px;
+}
+
+#div2 .hadding h6{
+    color: aqua;
+}
+
+/* img prat */
+
+#next{
+    position: relative;
+    display: flex;
+    margin-left: 250px;
+    margin-right:200px;
+    
+}
+
+#next .i{
+    padding: 25px;
+    top: 30px;
+}
+
+
+/* 2nd parts */
+
+#abcd{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(img/2nd\ xm.webp);
+    background-size: cover;
+    padding-top:10rem;
+}
+
+#abcb .a1{
+    width: 40%;
+    height: 40vh;
+}
+
+#abcd .b2{
+    width:40%;
+    height: 40vh;
+    margin-left:100px;
+}
+
+#abcd .a1 h4{
+    color: aqua;        
+} 
+
+#abcd .a1 h1{
+    font-size: 40px;
+}
+  
+
+/* 3nd part */
+
+
+
+.no3{
+    text-align: center;
+    margin: 100px 0px;
+} 
+
+.no3 h4{
+    color: aqua;
+}
+
+.no3 h1{
+    font-size: 40px;
+}
+
+#zz{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;  
+    
+    
+        
+}
+    
+
+#zz .aa{
+    width:20%;
+    height: 300px;
+    align-items: center;
+    margin-top: 50px;
+    padding: 15px;
+       
+
+        font-weight: bold;
+        position: relative;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: -10px 5px 10px gray;
+        top: 0;
+        transition: top ease 0.5s; 
+}
+
+#zz .aa:hover{
+    top:-55px;
+}
+
+ 
+.imgs{
+    position: relative;
+    left: 170px;
+}
+
+.hb{
+    text-align: center;
+    line-height: 2.5em;
+}
+
+.hc{
+    text-align: center;
+}
+
+.bu{
+    position: relative;
+    left: 110px;
+    margin-top: 50px;
+    padding: 5px 20px ;
+    font-size: 20px;
+    border-radius: 20px;
+    color: #1a1aff;
+}
+
+
+
+/* 4nd patrs */
+
+#div4{
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    color: white;
+    
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        position: relative;
+        width: 70%;
+        height: 200px;
+        background-color:DeepSkyBlue;
+        border-radius: 20px;
+        box-shadow: -10px 5px 10px gray;
+        top: 0;
+        transition: top ease 0.5s; 
+            
+}
+
+#div4:hover{
+    top:-55px;
+}
+
+#div4 .haddin{
+   margin-right: 200px;
+}
+
+ 
+
+#div4 .bbb{
+    margin-right: 100px;
+}
+
+#div4 .bbb button{
+    padding: 5px 13px;
+    font-size: 25px;
+    background-color: #1a1aff;
+    color: white;
+    border-radius: 20px;
+}
+
+/* 5nd parts */
+
+
+.no5{
+    width: 100%;
+    height: 60vh;
+    background-image: url(img/3333.jpg);
+    background-size: cover;
+    display: flex;
+    padding-top:10rem;
+    padding-left: 10rem;
+    line-height: 2em;   
+}
+
+.ddd{
+    margin-left: 220px;
+    color: white;
+}
+
+.no5 .ddd button{
+    margin-top: 2rem;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #1a1aff;
+    color:white;
+}
+
+
+
+/* 6nd parts */
+
+.no6{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    position: relative;
+    left: -430px; 
+}
+
+.e1{
+    width: 30%;
+    height: 350px;
+    margin-top: 280px;
+    margin-left:20px;
+    
+
+    
+         
+        justify-content:center;
+        align-items: center;
+        font-weight: bold;
+        position: relative;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: -10px 5px 10px gray;
+        top: 0;
+        transition: top ease 0.5s; 
+}
+
+.e1:hover{
+        top:-55px;
+}
+
+.imgss{
+    margin-bottom :40px;
+    margin-left: 150px; 
+    padding: 15px;
+}
+
+.hbb{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hh{
+    text-align: center;
+    margin-bottom:30px; 
+}
+
+.buu{
+     margin-left: 120px; 
+    padding: 8px 20px ;
+    font-size: 17px;
+    border-radius: 20px;
+    color: #1a1aff;
+}
+
+/* 7nd parts */
+
+.no7{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+.no77{
+    width: 35%;
+    height: 80px;
+    margin-top: 300px;
+    font-size: 20px;    
+}
+
+.no8{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+.no88{
+    width: 35%;
+    height: 80px;
+    margin-top: 320px;
+}
+
+.img8{
+    position: relative;
+    right: 70px;
+    top: 35px;
+}
+
+.no888{
+    margin-bottom: 20px;
+}
+
+.no9{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+.no99{
+    width: 35%;
+    height: 80px;
+    margin-top: 420px;
+}
+
+
+/* 8nd partes */
+
+
+#tushar{
+   
+    display: flex;
+    position: relative;
+    top: 600px;
+}
+
+#tushar .sh{
+    z-index: 9;
+    left: 135px;
+    top: 80px;
+    position: relative;
+    padding: 40px;
+    padding-left: 80px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#tushar .sh h3{
+    position: relative;
+    font-size: 55px;
+}
+
+#tushar .sh b{
+    position: relative;
+    font-size: 19px;
+} 
+#tushar .sh h6{
+    font-size: 15px ;
+}
+
+#tushar img.tu2{
+    width: 800px;
+}
+
+#tushar .sh input.range{
+    position: relative;
+    width: 260px;
+    top: -85px;
+    height: 60px;
+}
+
+
+
+
+
+
+/* 9nd prtes */
+
+ #no19{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    top:550px;
+    margin:250px;
+    margin-right: -200px;
+    background-color: aliceblue;
+}
+
+.sa{
+    width: 20%;
+   box-shadow: 10px 5px 10px;
+   padding: 30px;
+   margin-left: 50px;
+}
+
+.sabbi{
+    font-size: 20px;
+}
+
+h5{
+    color: aquamarine;
+}
+
+
+
+
+/* 10nd parts*/
+
+
+.fainal{
+    top: 600px;
+    position: relative;
+    left: 200px;
+}
+
+.fainal h6{
+    color: green;
+    position: relative;
+    font-size: 17px;
+}
+
+.fainal h3{
+    
+    font-size: 55px;
+}
+.fainal b{
+    position: relative;
+    font-size: 25px;
+}
+
+#from{
+    padding: 30px;
+    width: 800px;
+    height: 550px;
+    position: relative;
+    top: 260px;
+    box-shadow: -3px 3px 15px  ;
+    background-color:white;
+    left:1000px ;
+}
+#from .from{
+    display: flex;
+}
+
+#from .a99{
+    padding-left:20px;
+}
+
+#from .a99 .aaa9{
+    background-color: aliceblue;
+    height:50px;
+    width: 350px;
+    color: black; 
+    font-weight: bolder; 
+    font-size: 20px;  
+    padding: 10px;
+    border: 0px solid;
+}
+
+#from .a9 .aaa9 { 
+    background-color: aliceblue;
+    height:50px;
+    width: 350px;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    padding:10px;
+    border: 0px solid;
+}
+
+#from .email .aaaa9{
+    width: 720px;
+    background-color: aliceblue;
+    height:50px;
+    color: black;
+    font-weight: bolder;
+    border: 0px solid;
+    padding: 10px;
+    font-size: 20px;
+} 
+
+
+#from .massage .aaaa9{
+    height: 200px;
+    width: 720px;
+    background-color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    border: 0px solid;
+}
+
+#from .massage{
+    padding-top: 15px;
+}
+
+#from .email{
+    padding-top: 15px;
+
+}
+
+#from .spbu{
+    padding-top: 5px;
+}
+#from .spbu .aaaa9{
+
+    width: 729px;
+    height: 40px;
+    color: aliceblue;
+    border-radius: 30px;
+    background-color: #6A5ACD;
+    padding: 10px;
+    font-size: 20px;
+    border: 0px solid white ;
+}
+
+#foot h1{
+    position: relative;
+    top: -180px;
+    height: 200px;
+    background-color:aliceblue ;
+    text-align: center;
+}
+
+
+/* 11nd partes */
+
+.last{
+    display: flex;
+    position: relative;
+    background-color:azure;
+    top: 300px;
+    padding: 40px;
+    justify-content: center;
+    font-size: 25px;
+
+}
+
+.lest1{
+    position: relative;
+    left: 50px;
+    padding: 10px 25px; 
+    border-radius: 20px;
+    background-color: #6A5ACD;
+    color: white;
+    font-size: 20px;
+    border: 0px solid white
+
+}
+
+
+/* 11nd partes */
+
+.fines{
+    display: flex;
+    position: relative;
+    top: 300px;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    background-color: #1a1aff;
+    color: white;
+}
+
+.fines1{
+    position: relative;
+    padding: 50px;
+    top: 80px;
+    line-height:1.5em;
+    font-size: 20px;
+}
+
+.fines1 span{
+    color: aqua;
+}
+
+.fines1 ul{
+    list-style: none;
+}
+
+.fines1 input{
+    width: 416px;
+    height: 40px;
+    font-size: 15px;
+    /* padding: 12px 110px; */
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.fines1 button{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 12px 182px;
+    border-radius: 20px;
+    background-color: aqua;
+    color: white;
+    font-size: 15px; 
+}
